@@ -4,7 +4,7 @@ public class MouseRotate : MonoBehaviour
 {
     public float rotationSpeed = 10f; // The speed at which the player rotates.
 
-    private Vector2 mousePosition; // The position of the mouse cursor.
+    public Vector2 mousePosition; // The position of the mouse cursor.
     private Transform playerTransform; // The transform component of the player.
 
     void Start()
